@@ -12,4 +12,6 @@ set incsearch
 set hlsearch
 nnoremap <leader><space> :nohlsearch<CR>
 set foldmethod=indent
+set shiftwidth=4
 set foldnestmax=2
+
