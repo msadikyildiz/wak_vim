@@ -121,5 +121,6 @@ LS_COLORS='rs=0:di=1;35:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd
 BYELLOW='\[\033[01;33m\]'
 IBLACK='\[\033[0;90m\]'
 PS_CLEAR='\[\033[0m\]'
-export PS1="\n${BYELLOW}[\w]${PS_CLEAR}\n${IBLACK}\$ "
+txtwht='\e[0;37m'
+export PS1="\n${BYELLOW}[\w]${PS_CLEAR}\n${txtwht}\$ "
 export LS_COLORS
